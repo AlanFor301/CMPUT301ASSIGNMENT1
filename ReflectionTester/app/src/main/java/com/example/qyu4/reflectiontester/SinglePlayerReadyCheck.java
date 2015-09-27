@@ -15,6 +15,7 @@ import java.util.Random;
 public class SinglePlayerReadyCheck extends Activity {
     private Handler handler = new Handler();
     private int randTime;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,8 +26,9 @@ public class SinglePlayerReadyCheck extends Activity {
                 randTime = randInt(10, 2000);
                 handler.postDelayed(new Runnable() {
                     public void run() {
-                        Intent openNewActivity = new Intent(getApplicationContext(), NumberChooseActivity.class);
+                        Intent openNewActivity = new Intent(getApplicationContext(), SinglePlayerResultPage.class);
                         startActivity(openNewActivity);
+
                     }
                 }, randTime);
             }

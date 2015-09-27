@@ -24,6 +24,10 @@
             android:name=".SinglePlayerReadyCheck"
             android:label="@string/title_activity_single_player_ready_check" >
         </activity>
+        <activity
+            android:name=".SinglePlayerResultPage"
+            android:label="@string/title_activity_single_player_result_page" >
+        </activity>
     </application>
 
 </manifest>
