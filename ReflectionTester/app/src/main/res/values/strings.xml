@@ -3,4 +3,6 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_number_choose">Number Choose Activity</string>
+    <string name="greeting_msg">Thank you for using Reflection Tester</string>
 </resources>
