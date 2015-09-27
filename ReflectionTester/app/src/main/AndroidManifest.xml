@@ -20,6 +20,10 @@
             android:name=".NumberChooseActivity"
             android:label="@string/title_activity_number_choose" >
         </activity>
+        <activity
+            android:name=".SinglePlayerReadyCheck"
+            android:label="@string/title_activity_single_player_ready_check" >
+        </activity>
     </application>
 
 </manifest>
